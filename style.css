@@ -1,0 +1,110 @@
+body {
+    background-color: 00000;
+    margin: 0;
+    padding: 0%;
+}
+
+.header {
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    z-index: 100;
+}
+
+#navbar {
+    padding-left: 40%;
+    padding-top: 2%;
+}
+
+
+/* top container stars here */
+
+#about-us {
+    z-index: 2;
+    position: absolute;
+    color: #bbe1fa;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 600%;
+    font-weight: 700;
+}
+
+img {
+    height: 550px;
+    width: 100%;
+    bottom: 200px;
+}
+
+
+/* second conatiner stars here */
+
+.second-container {
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.first-part {
+    width: 50%;
+}
+
+.first-part img {
+    border-radius: 10%;
+    width: 80%;
+    margin: 20px 20px;
+    height: 80%;
+}
+
+.second-part {
+    width: 50%;
+    height: 80%;
+}
+
+H1 {
+    color: black;
+    word-wrap: break-word;
+    font-size: 250%;
+}
+
+span {
+    color: #DA1212;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+#aim {
+    display: flex;
+}
+
+#mission,
+#vision,
+#our-goals {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 1px 1px 15px rgb(88, 87, 87);
+}
+
+#mission:hover,
+#vision:hover,
+#our-goals:hover {
+    background-color: rgb(4, 179, 248);
+}
+
+.exprience {
+    position: absolute;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    background-color: #011335;
+    width: 200px;
+    height: 120px;
+}
+
+.exprience h1 {
+    color: white;
+    padding-left: 15px;
